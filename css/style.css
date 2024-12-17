@@ -4,6 +4,10 @@
     
 }
 
+.flex {
+    display: flex;
+}
+
 body {
     background-image: url(../img/achtergrond5.webp);
     height: 100vh;
@@ -22,7 +26,6 @@ header {
 }
 
 nav ul {
-    display: flex;
     flex-direction: row;
     font-family: 'Nico Moji';
     list-style-type: none;
@@ -44,17 +47,14 @@ nav ul {
 
 .about {
     color: #ACFCD9;
-    padding-right: 50px;
 }
 
 .contact {
-    color: #55D6BE;
-    padding-right: 50px;
+    color: #55D6BE; 
 }
 
 .work {
     color: #FC6471;
-    padding-right: 30px;
 }
 
 ul li a {
@@ -70,16 +70,22 @@ nav ul li a:hover {
     border-radius: 40px;
 }
 
-.stuk1 {
-    display: flex;
+.intro1 {
     flex-direction: row;
     justify-content: center;
     gap: 70px;
     font-family: 'Nico Moji';
     font-size: 40px;
     color: #dddddd;
+    padding-top: 30px;
 }
 
 p {
-    padding-top: 80px;
+    padding-top: 100px;
 }
+
+.introdeel2 {
+    flex-direction: row;
+    gap: 40px;
+}
+
