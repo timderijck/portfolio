@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 .flex {
@@ -38,11 +38,11 @@ nav ul {
 }
 
 .introduction {
-    color: #dddddd;
+    color: #7d5ba6;
 }
 
 .home {
-    color: #7d5ba6;
+    color: #dddddd;
 }
 
 .about {
@@ -50,7 +50,7 @@ nav ul {
 }
 
 .contact {
-    color: #55D6BE; 
+    color: #55D6BE;
 }
 
 .work {
@@ -63,7 +63,7 @@ ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }  
+}
 
 nav ul li a:hover {
     background-color: darkgray;
@@ -73,7 +73,7 @@ nav ul li a:hover {
 .intro1 {
     flex-direction: row;
     justify-content: center;
-    gap: 70px;
+    gap: 130px;
     font-family: 'Nico Moji';
     font-size: 40px;
     color: #dddddd;
@@ -86,6 +86,47 @@ p {
 
 .introdeel2 {
     flex-direction: row;
+    padding-bottom: 45px;
     gap: 40px;
+}
+
+.homehoofdtekst {
+    color: #7d5ba6;
+    justify-content: center;
+    font-family: 'Nico Moji';
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footertekst {
+    font-family: 'Nico Moji';
+    font-size: 30px;
+    color: #dddddd;
+    flex-direction: column;
+}
+
+.footertekst1 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footerinfo {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerinfo2 {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
