@@ -91,11 +91,12 @@ p {
 }
 
 .homehoofdtekst {
-    color: #7d5ba6;
+    color: #dddddd;
     justify-content: center;
     font-family: 'Nico Moji';
     font-size: 40px;
     padding-top: 20px;
+    flex-direction: column;
 }
 
 footer {
@@ -130,3 +131,61 @@ footer {
     padding-right: 40px;
 }
 
+.introductiontekst {
+    padding: 20px;
+    justify-content: center;
+    color: #7d5ba6;
+}
+
+.introductieinfo {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 350px;
+}
+
+.introtekstalgemeen {
+    flex-direction: column;
+}
+
+.introtekst2 {
+    font-size: 25px;
+    padding-top: 20px;
+    position: relative;
+    left: -70px;
+}
+
+.introtekst4 {
+    left: -30px;
+    padding-bottom: 100px;
+}
+
+.abouthoofdtekst {
+    justify-content: center;
+    color: #ACFCD9;
+    padding: 20px;
+}
+
+.drierijentekst {
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.rij2regel1 {
+    padding-bottom: 25px;
+}
+
+.rij2regel2 {
+    padding-bottom: 15px;
+}
+
+.rij2regel3 {
+    position: relative;
+    left: 60px;
+}
+
+.rij3 {
+    padding-bottom: 40px;
+}
