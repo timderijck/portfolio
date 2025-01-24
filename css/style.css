@@ -126,8 +126,12 @@ footer {
     justify-content: center;
 }
 
+.footerinfo1 {
+    padding-right: 50px;
+}
+
 .footerinfo2 {
-    padding-left: 40px;
+    padding-left: 120px;
     padding-right: 40px;
 }
 
@@ -188,4 +192,251 @@ footer {
 
 .rij3 {
     padding-bottom: 40px;
+}
+
+.contacthoofdtekst {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.contactpagina {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+.contactfoto1 {
+    padding-right: 60px;
+}
+
+.contactfoto2 {
+    padding-left: 60px;
+}
+
+.textgrootte {
+    font-size: 25px;
+}
+
+.youwillfind {
+    padding-bottom: 40px;
+}
+
+.wayscontact {
+    position: relative;
+    left: 30px;
+}
+
+.phonetekst {
+    padding-left: 80px;
+}
+
+.hometekst {
+    position: relative;
+    left: 180px;
+    padding-top: 30px;
+}
+
+.emailtekst {
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+.phonenumber {
+    padding-top: 45px;
+    padding-left: 15px;
+}
+
+.adres {
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+
+.email {
+    right: 110px;
+    top: 45px;
+}
+
+.footerafbeelding {
+    position: relative;
+    right: 50px;
+}
+
+.footerinfotekst {
+    position: relative;
+    bottom: 37px;
+}
+
+.foottekst {
+    position: relative;
+    bottom: 44px;
+}
+
+.footerinfo3 {
+    padding-left: 120px;
+}
+
+.kleineruimte {
+    padding-left: 100px;
+}
+
+.morequestions {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    right: 115px;
+}
+
+.formuliercontainer {
+    height: 385px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+    position: relative;
+    right: 140px;
+    border-radius: 40px;
+}
+
+.formulierinhoudcontainer {
+    height: 335px;
+    width: 350px;
+    background-color: #dddddd;
+    border-radius: 40px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.formafbeelding1 {
+    padding-top: 100px;
+}
+
+.formafbeelding2 {
+    position: relative;
+    top: 150px;
+    right: 90px;
+}
+
+.smallpadding {
+    margin-bottom: 5px;
+}
+
+.container1 {
+    height: 30px;
+    width: 310px;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    background-color: #636060;
+}
+
+.borderradius {
+    border-radius: 40px;
+}
+
+.container4 {
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    top: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.containernieuw {
+    font-family: 'Nico Moji';
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    position: relative;
+    top: 20px;
+    left: 22px;
+}
+
+.containernieuw input {
+    background-color: #636060;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #636060;
+    border-radius: 40px;
+    color: #dddddd;
+    font-family: 'Nico Moji';
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #dddddd;
+    position: relative;
+    left: 90px;
+}
+
+.vrijeruimte {
+    padding: 20px;
+}
+
+.workpagina {
+    font-family: 'Nico Moji';
+    font-size: 40px;
+    color: #FC6471;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 100px;
+}
+
+.fotopadding {
+    padding-top: 25px;
+}
+
+.worktekst {
+    padding-top: 40px;
+    justify-content: center;
+    position: relative;
+    padding-left: 200px;
+}
+
+
+.youwillfind2 {
+    color: #dddddd;
+    font-size: 25px;
+    padding-top: 50px;
+    left: 60px;
+}
+
+.position {
+    position: relative;
+}
+
+.futuretekst {
+    padding-top: 120px;
+    left: 50px;
+}
+
+.thanks {
+    padding-top: 130px;
+    padding-bottom: 30px;
+    color: #dddddd;
+    font-size: 25px;
+    left: 30px;
+}
+
+.driedingen {
+    left: 45px;
+    top: 30px;
+}
+
+.white {
+    color: #dddddd;
+}
+
+.tweedetekstlinks {
+    padding-top: 30px;
+}
+
+.kleinepaddingruimte {
+    padding-bottom: 20px;
 }
